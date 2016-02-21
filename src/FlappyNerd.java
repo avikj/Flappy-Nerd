@@ -315,15 +315,15 @@ public class FlappyNerd extends JFrame {
 			g.translate(-scrollVelocity * framesPassed, 0);
 			birdRect = new Rectangle(birdx - 20, birdy - 15, 40, 30);
 			drawClouds((int) (scrollVelocity * framesPassed * 0.9), g);
-			// drawGround(0.4, 30, g);
-			// drawGround(0.3, 20, g);
+			 drawGround(0.4, 30, g);
+			 drawGround(0.3, 20, g);
 			drawTrees(treeHeights,
 					(int) (scrollVelocity * framesPassed * 0.2 + 1500), g);
 			drawGround(0.2, 10, g);
 			drawPipes(g);
 			if (started)
 				drawBird(birdx, birdy, g.create());
-			// drawGround(-0.1, -10, g);
+			 drawGround(-0.1, -10, g);
 
 			g.setFont(new Font("asdf", Font.BOLD, 140)); // display title text
 			int titleX = 100;
