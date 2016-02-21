@@ -43,7 +43,6 @@ public class QuizletArray {						//TermText is before every q and a
 			urlContents = sb.toString();
 	}
 	public static int countInstances(String src, String text){
-		System.out.println(src.length()- src.replace(text, text.substring(1)).length()+" fuckin instances");
 		return src.length()- src.replace(text, text.substring(1)).length();
 	}
 	public static void parseHtml(){
