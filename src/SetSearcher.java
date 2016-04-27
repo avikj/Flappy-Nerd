@@ -18,7 +18,7 @@ import javax.swing.JFrame;
 import javax.swing.JTextField;
 
 public class SetSearcher extends JFrame {
-	static Font font= new Font("lel get rekt", Font.BOLD, 25);
+	static Font font= new Font("sans-serif", Font.BOLD, 25);
 	static String HTMLData = "";
 	static String[] newURL = new String[5];
 	static GButton[] buttons = new GButton[5];
